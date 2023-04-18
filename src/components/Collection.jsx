@@ -30,6 +30,7 @@ const Collection = () => {
                   <figure
                     className="card-banner img-holder"
                     // style="--width: 500; --height: 500;"
+                    // style={{--width: 500}}
                   >
                     <img
                       src="./assets/images/showcase-1.jpg"
