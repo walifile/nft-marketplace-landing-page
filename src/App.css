@@ -480,24 +480,16 @@ body {
   display: none;
 }
 
-.top-collection .slider {
-  --slider-item: 1;
-
+.top-collection .slider_wrapper {
   position: relative;
-  margin-inline: -8px;
-  padding: 4px 12px;
-  overflow-x: hidden;
 }
 
 .top-collection .slider-container {
   position: relative;
-  display: flex;
   transition: transform 300ms ease;
 }
 
 .top-collection .slider-item {
-  min-width: calc(100% / var(--slider-item));
-  width: calc(100% / var(--slider-item));
   padding-inline: 12px;
 }
 
@@ -1077,17 +1069,6 @@ body {
     align-items: flex-start;
   }
 
-  .top-collection .slider {
-    --slider-item: 2;
-
-    margin-inline: -16px;
-    padding-inline: 8px;
-  }
-
-  .top-collection .slider-item {
-    padding-inline: 12px;
-  }
-
   .top-collection .container > .btn-link {
     display: none;
   }
@@ -1212,10 +1193,6 @@ body {
    * TOP COLLECTION
    */
 
-  .top-collection .slider {
-    --slider-item: 3;
-  }
-
   /**
    * QNA
    */
@@ -1284,10 +1261,6 @@ body {
   /**
    * TOP COLLECTION
    */
-
-  .top-collection .slider {
-    --slider-item: 4;
-  }
 
   /**
    * DISCOVER
