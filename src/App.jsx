@@ -6,6 +6,7 @@ import Collection from "./components/Collection";
 import Items from "./components/Items";
 import Creator from "./components/Creator";
 import Contact from "./components/Contact";
+import Newsletter from "./components/Newsletter";
 function App() {
   return (
     <>
@@ -15,6 +16,7 @@ function App() {
       <Items />
       <Creator />
       <Contact />
+      <Newsletter />
       <div className="body-bg-shape"> </div>
     </>
   );
