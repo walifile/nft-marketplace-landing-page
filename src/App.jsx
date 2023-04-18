@@ -1,11 +1,19 @@
 import React from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
+import Banner from "./components/Banner";
+import Collection from "./components/Collection";
 function App() {
   return (
-    <div>
+    <>
       <Navbar />
-    </div>
+      <main>
+        <article>
+          <Banner />
+          <Collection />
+        </article>
+      </main>
+    </>
   );
 }
 
