@@ -493,6 +493,12 @@ body {
   padding-inline: 12px;
 }
 
+.slick-dots li button::before {
+  color: #fff !important ;
+}
+.slick-dots li.slick-active button::before {
+  color: #fff !important;
+}
 .collection-card {
   padding: 12px;
   box-shadow: var(--shadow-1);

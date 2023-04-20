@@ -7,10 +7,31 @@ import Slider from "react-slick";
 const Collection = () => {
   const settings = {
     dots: true,
+    arrows: false,
     infinite: true,
     speed: 500,
     slidesToShow: 4,
     slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 850,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
   };
   return (
     <>
@@ -80,17 +101,6 @@ const Collection = () => {
                 ))}
               </Slider>
             </ul>
-
-            {/* <button className="slider-btn prev">
-              <ion-icon name="chevron-back-sharp" aria-hidden="true"></ion-icon>
-            </button>
-
-            <button className="slider-btn next">
-              <ion-icon
-                name="chevron-forward-sharp"
-                aria-hidden="true"
-              ></ion-icon>
-            </button> */}
           </div>
 
           <a href="#" className="btn-link link:hover">
