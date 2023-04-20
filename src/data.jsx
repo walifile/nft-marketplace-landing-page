@@ -42,3 +42,60 @@ export const collection = [
     items: "43",
   },
 ];
+
+export const items = [
+  {
+    banner: "./assets/images/showcase-7.gif",
+    avatar: "./assets/images/avatar-8.jpg",
+    artist: "StreetBoy",
+    title: "Genuine Undead #3902",
+  },
+  {
+    banner: "./assets/images/showcase-7.jpg",
+    avatar: "./assets/images/avatar-7.jpg",
+    artist: "CutieGirl",
+    title: "Windchime #768",
+  },
+  {
+    banner: "./assets/images/showcase-6.gif",
+    avatar: "./assets/images/avatar-6.gif",
+    artist: "ButterFly",
+    title: "Probably A Label #3277",
+  },
+  {
+    banner: "./assets/images/showcase-5.jpg",
+    avatar: "./assets/images/avatar-5.jpg",
+    artist: "NorseQueen",
+    title: "Probably A Label #1711",
+  },
+  {
+    banner: "./assets/images/showcase-4.jpg",
+    avatar: "./assets/images/avatar-4.jpg",
+    artist: "BigBull",
+    title: "Shibuya Scramble Punks",
+  },
+  {
+    banner: "./assets/images/showcase-3.jpg",
+    avatar: "./assets/images/avatar-3.jpg",
+    artist: "Angel",
+    title: "Probably A Label #650",
+  },
+  {
+    banner: "./assets/images/showcase-8.gif",
+    avatar: "./assets/images/avatar-8.jpg",
+    artist: "StreetBoy",
+    title: "Genuine Undead #3902",
+  },
+  {
+    banner: "./assets/images/showcase-2.jpg",
+    avatar: "./assets/images/avatar-2.jpg",
+    artist: "CrazyAnyone",
+    title: "Looki #0147",
+  },
+  {
+    banner: "./assets/images/showcase-1.jpg",
+    avatar: "./assets/images/avatar-1.jpg",
+    artist: "Princess",
+    title: "Poob #285",
+  },
+];
