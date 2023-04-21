@@ -1,6 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Navbar = () => {
+  const [nav, setNav] = useState("");
+  const navbarHandler = () => {
+    if (nav) {
+      setNav("");
+    } else {
+      setNav("active");
+    }
+  };
+
   return (
     <>
       <header className="header" data-header>
@@ -10,19 +19,11 @@ const Navbar = () => {
               src="/assets/images/logo-small.svg"
               width="40"
               height="40"
-              alt="Metalink home"
+              alt="home"
               className="logo-small"
             />
-            <img
-              src="/assets/images/logo.svg"
-              width="126"
-              height="28"
-              alt="Metalink home"
-              className="logo"
-            />
           </a>
-
-          <nav className="navbar" data-navbar>
+          <nav className={`navbar ${nav}`}>
             <ul className="navbar-list">
               <li>
                 <a href="#" className="navbar-link label-lg link:hover">
@@ -74,22 +75,19 @@ const Navbar = () => {
               />
             </button>
 
-            <button
-              className="nav-toggle-btn"
-              aria-label="menu toggle"
-              data-nav-toggler
-            >
-              <ion-icon
-                name="menu-outline"
-                aria-hidden="true"
-                className="default-icon"
-              ></ion-icon>
-
-              <ion-icon
-                name="close-outline"
-                aria-hidden="true"
-                className="active-icon"
-              ></ion-icon>
+            <button className={`nav-toggle-btn ${nav}`} onClick={navbarHandler}>
+              {!nav ? (
+                <ion-icon
+                  name="menu-outline"
+                  className="default-icon"
+                ></ion-icon>
+              ) : (
+                <ion-icon
+                  name="close-outline"
+                  aria-hidden="true"
+                  className="active-icon"
+                ></ion-icon>
+              )}
             </button>
           </div>
         </div>

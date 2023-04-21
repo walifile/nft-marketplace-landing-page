@@ -12,7 +12,7 @@ const Banner = () => {
 
           <p className="section-text body-lg">
             We are a huge marketplace dedicated to connecting great artists of
-            all Metalink with their fans and unique token collectors!
+            all web3 with their fans and unique token collectors!
           </p>
 
           <a href="#" className="btn">
