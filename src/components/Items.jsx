@@ -14,12 +14,9 @@ const Items = () => {
 
           <ul className="grid-list">
             {items.map((card, index) => (
-              <li>
+              <li key={index}>
                 <div className="discover-card card">
-                  <div
-                    className="card-banner img-holder"
-                    // style="--width: 500; --height: 500;"
-                  >
+                  <div className="card-banner img-holder">
                     <img
                       src={card?.banner}
                       width="500"
@@ -30,7 +27,7 @@ const Items = () => {
                     />
 
                     <button className="btn btn-primary">
-                      <ion-icon name="flash" aria-hidden="true"></ion-icon>
+                      <ion-icon name="flash"></ion-icon>
 
                       <span className="span">Place Bid</span>
                     </button>
@@ -97,7 +94,6 @@ const Items = () => {
 
           <a href="#" className="btn-link link:hover">
             <span className="span">Explore More</span>
-
             <ion-icon name="arrow-forward"></ion-icon>
           </a>
         </div>
