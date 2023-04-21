@@ -53,7 +53,7 @@ const Collection = () => {
             <ul className="slider_container">
               <Slider {...settings}>
                 {collection.map((card, index) => (
-                  <li className="slider-item">
+                  <li className="slider-item" key={index}>
                     <div className="collection-card card">
                       <figure className="card-banner img-holder">
                         <img
