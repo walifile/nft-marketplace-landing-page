@@ -9,11 +9,11 @@ const Footer = () => {
             <div className="footer-brand">
               <a href="#">
                 <img
-                  src="./assets/images/logo.svg"
+                  src="./assets/images/logo-small.svg"
                   width="126"
                   height="28"
                   loading="lazy"
-                  alt="Metalink home"
+                  alt="home"
                 />
               </a>
 
@@ -25,7 +25,7 @@ const Footer = () => {
 
             <ul className="footer-list">
               <li>
-                <p className="title-lg footer-list-title">Metalink</p>
+                <p className="title-lg footer-list-title">Market Place</p>
               </li>
 
               <li>
@@ -127,7 +127,7 @@ const Footer = () => {
               <ul>
                 <li>
                   <p className="title-lg footer-list-title">
-                    Download the Metalink app
+                    Download the web3 app
                   </p>
                 </li>
 
@@ -160,15 +160,15 @@ const Footer = () => {
                 </li>
 
                 <li className="footer-list-item">
-                  <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+                  <ion-icon name="mail-outline"></ion-icon>
 
                   <a href="mailto:metalink@nft.com" className="footer-link">
-                    metalink@nft.com
+                    web3@nft.com
                   </a>
                 </li>
 
                 <li className="footer-list-item">
-                  <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+                  <ion-icon name="call-outline"></ion-icon>
 
                   <a href="tel:+111 234-567-891" className="footer-link">
                     +111 234-567-891
@@ -182,8 +182,8 @@ const Footer = () => {
         <div className="footer-bottom">
           <div className="container">
             <p className="body-md text-center copyright">
-              &copy; 2023 Metalink. Developed with{" "}
-              <span className="span">❤</span> by codingcirculate.
+              &copy; 2023 web3. Developed with <span className="span">❤</span>{" "}
+              by codingcirculate.
             </p>
           </div>
         </div>
